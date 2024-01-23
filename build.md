@@ -206,6 +206,6 @@ Docker image is big because of :
 
 
 
+# NEXT 
 
- | [Home](/index.md)| [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) |
- |---|---|---|---|
+Please proceed with [Run](/run.md) 
