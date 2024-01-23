@@ -16,10 +16,11 @@ The BIOP-desktop is a **`Versioned Computer`** with [software]() pre-installed a
 ![desktop-screeshot](/resources/BIOP-desktop.png)
 
 The **BIOP-desktop** is 
+
 | Users Point of View | IT & Dev. Point of View |
 |---|---|
 | a **`Computer`** with "everything" installed and running! | a **`Docker`** image that you can simply pull and run |
-| [**START**]() | [**Installation**]() | 
+
 
 
 ## What is a Versioned Computer?
@@ -56,3 +57,4 @@ A **`Versioned Computer`** is useful for:
 
  | [Home](/index.md)| [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) |
  |---|---|---|---|
+ ||||
