@@ -44,7 +44,7 @@ AND
 2. c - Open a browser and go to [http://127.0.0.1:8888/vnc/](http://127.0.0.1:8888/vnc/) for direct access to Desktop
 
 3. You arrive on the Desktop
-![desktop](/resources/![desktop](resources/local_BIOP-desktop.png).png)
+![desktop](/resources/local_BIOP-desktop.png)
 
 #### Binding local folder/hardrive
 
