@@ -1,8 +1,19 @@
 ---
-title: Run BIOP-Desktop
+title: Run BIOP-desktop
 layout: default
 filename: run.md
 --- 
+
+# Run BIOP-Desktop 
+
+ Table of contents
+- [Run BIOP-Desktop locally](https://biop.github.io/biop-desktop-doc/run.html/#run-biop-desktop-locally)
+- [Run BIOP-Desktop remotly](https://biop.github.io/biop-desktop-doc/run.html/#run-biop-desktop-remotly)
+    - [Kubernetes](https://biop.github.io/biop-desktop-doc/run.html/#kubernetes)
+    - [RunAI](https://biop.github.io/biop-desktop-doc/run.html/#runai)
+    - [Slurm](https://biop.github.io/biop-desktop-doc/run.html/#slurm)
+    - [Renku](https://biop.github.io/biop-desktop-doc/run.html/#renku)
+
 
 # Run BIOP-Desktop locally
 
@@ -70,7 +81,3 @@ TODO
 ## Renku
 
 TODO
-
-
-
-| | [Build](/build.md) | [Run](/run.md) |
