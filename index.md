@@ -55,6 +55,5 @@ A **`Versioned Computer`** is useful for:
 | [inkscape](https://inkscape.org/) |  Vectoriel drawing (and more!) | 
 
 
- | [Home](/index.md)| [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) |
- |---|---|---|---|
- ||||
+ | [Home](/index.md) | [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) |
+ | --- | --- | --- | --- |
