@@ -44,9 +44,9 @@ A **`Versioned Computer`** is useful for:
 
 | Software | Description | Notes | 
 | --- | --- |
-| [Fiji](https://fiji.sc/) | a “batteries-included” ImageJ  with many update sites : clij, stardist, ptbiop , ilastik … |
-| [ilastik (GPU)](https://www.ilastik.org/) | interactive learning and segmentation toolkit | 
-| [QuPath](https://qupath.github.io/) | with extensions : cellpose, samapi extension , ABBA ... |
+| [Fiji](https://fiji.sc/) | a “batteries-included” ImageJ  | update sites : clij, stardist, ptbiop , ilastik … |
+| [ilastik (GPU)](https://www.ilastik.org/) | interactive learning and segmentation toolkit | GPU version|
+| [QuPath](https://qupath.github.io/) | Digital Pathology | with extensions : cellpose, samapi extension , ABBA ... |
 | [cellprofiler](https://cellprofiler.org/) | |
 | [devbio-napari](https://github.com/haesleinhuepf/devbio-napari) | The Fijiest way to do image analysis in Python | 
 | [EMPanADA](https://empanada.readthedocs.io/en/latest/)| DNN to segment mitochondria in EM images | 
