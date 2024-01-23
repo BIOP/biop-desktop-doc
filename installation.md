@@ -4,13 +4,9 @@ layout: default
 filename: installation.md
 --- 
 
-[HOME](/index.md)
-
 # Local installation
 
-## Requirements 
-
-### Windows 11 & Docker Desktop
+## Windows 11 & Docker Desktop
 
 ### Windows Subsystem Linux (wsl)
 
@@ -23,10 +19,12 @@ and this [docker-gpu documentation](https://ubuntu.com/tutorials/enabling-gpu-ac
 
 [Good reading too](https://dinhanhthi.com/docker-gpu/)
 
-### Linux
+## Linux
 
 - TODO (install docker)
 
 
- | [Home](/index.md)| [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) |
- |---|---|---|---|
+
+# NEXT 
+
+Please proceed with [Build](/build.md) (optionnal) OR [Run](/run.md) 
