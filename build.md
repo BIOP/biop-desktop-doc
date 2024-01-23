@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Build
 layout: default
 filename: build.md
 --- 
