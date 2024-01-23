@@ -4,9 +4,11 @@ layout: default
 filename: index.md
 ---
 
+| [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) |
+
 # Acknowledgements 
 
-This whole project was possible thanks the previous work of the [renku](https://renkulab.io/) team ([renku-desktop](https://renkulab.io/projects/learn-renku/renku-desktop)) and the support of [RCP](https://www.epfl.ch/research/facilities/rcp/) and [SV IT](https://www.epfl.ch/schools/sv/it/) teams, [EPFL](https://www.epfl.ch/en/).
+This whole project was possible thanks to the previous work of the [renku team](https://renkulab.io/) ([renku-desktop](https://renkulab.io/projects/learn-renku/renku-desktop)) and the support of the [RCP](https://www.epfl.ch/research/facilities/rcp/) and [SV IT](https://www.epfl.ch/schools/sv/it/) teams, [EPFL](https://www.epfl.ch/en/).
 
 
 # Introduction
@@ -15,7 +17,7 @@ The BIOP-desktop is a **`Versioned Computer`** with [software]() pre-installed a
 
 ![desktop-screeshot](/resources/BIOP-desktop.png)
 
-The **BIOP-desktop** is 
+The **BIOP-desktop** is :
 
 | Users Point of View | IT & Dev. Point of View |
 |---|---|
@@ -55,5 +57,3 @@ A **`Versioned Computer`** is useful for:
 | [inkscape](https://inkscape.org/) |  Vectoriel drawing (and more!) | 
 
 
- | [Home](/index.md) | [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) |
- | --- | --- | --- | --- |
