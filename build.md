@@ -4,19 +4,15 @@ layout: default
 filename: build.md
 --- 
 
-NOTE : Docker images are available on [DockerHub](https://hub.docker.com/repository/docker/biop/biop-desktop)/[GitHub](), so you can simply pull and run them.
-Nevetherless, if you want to build the images yourself, you can follow the instructions below.
+> Docker images are available on [DockerHub](https://hub.docker.com/repository/docker/romainguiet/biop-desktop/)/[GitHub](TODO), so you can simply pull and run them. 
+>
+> Nevetherless, if you want to build the images yourself, you can follow the instructions below.
 
 
 # Build MAIN image
 
 ```
 docker build -f Dockerfile-ms -t biop-desktop:0.0.7 .
-```
-
-# Run MAIN image
-```
-docker run -it --rm -p 8888:8888 --gpus device=0 biop-desktop:0.0.7
 ```
 
 # Build sub-block
