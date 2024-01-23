@@ -7,13 +7,13 @@ filename: run.md
 # Run BIOP-Desktop 
 
  Table of contents
-- [Run BIOP-Desktop locally](https://biop.github.io/biop-desktop-doc/run.html/#run-biop-desktop-locally)
-- [Run BIOP-Desktop remotly](https://biop.github.io/biop-desktop-doc/run.html/#run-biop-desktop-remotly)
-    - [Kubernetes](https://biop.github.io/biop-desktop-doc/run.html/#kubernetes)
-    - [RunAI](https://biop.github.io/biop-desktop-doc/run.html/#runai)
-    - [Slurm](https://biop.github.io/biop-desktop-doc/run.html/#slurm)
-    - [Renku](https://biop.github.io/biop-desktop-doc/run.html/#renku)
-
+- [Run BIOP-Desktop locally](#run-biop-desktop-locally)
+- [Run BIOP-Desktop remotly](#run-biop-desktop-remotly)
+    - [Kubernetes](#kubernetes)
+        - [General](#general)
+        - [RunAI](#runai)
+    - [Slurm](#slurm)
+    - [Renku](#renku)
 
 # Run BIOP-Desktop locally
 
@@ -45,13 +45,15 @@ docker run -it --rm -p 8888:8888 --gpus device=0 biop-desktop:0.0.7
 
 OR
 
-### 2.b.Open a browser and go to [http://127.0.0.1:8888/lab/](http://127.0.0.1:8888/lab/) to arrive on JupyterLab (convenient to drag & drop images/files)
+### 2.b.Open a browser and go to [http://127.0.0.1:8888/lab/](http://127.0.0.1:8888/lab/) 
+You'll arrive on JupyterLab (which is convenient to drag & drop images/files)
 ![jupyter lab](/resources/local_JupyterLab.png)
 AND **Click VNC icon**
 
 ![VNC](/resources/VNC_icon.png)
 
-### 2.c.Open a browser and go to [http://127.0.0.1:8888/vnc/](http://127.0.0.1:8888/vnc/) for direct access to Desktop
+### 2.c.Open a browser and go to [http://127.0.0.1:8888/vnc/](http://127.0.0.1:8888/vnc/) 
+You'll arive directly on the Desktop
 
 ### 3.You arrive on the Desktop
 ![desktop](/resources/local_BIOP-desktop.png)
