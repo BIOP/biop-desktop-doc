@@ -4,9 +4,7 @@ layout: default
 filename: index.md
 ---
 
-# BIOP-desktop 
-
-# Acknoledgements 
+# Acknowledgements 
 
 This whole project was possible thanks the previous work of the [renku](https://renkulab.io/) team ([renku-desktop](https://renkulab.io/projects/learn-renku/renku-desktop)) and the support of [RCP](https://www.epfl.ch/research/facilities/rcp/) and [SV IT](https://www.epfl.ch/schools/sv/it/) teams, [EPFL](https://www.epfl.ch/en/).
 
