@@ -4,6 +4,8 @@ layout: default
 filename: build.md
 --- 
 
+| [Installation](/installation.md) | [**Build**](/build.md) | [Run](/run.md) | [FAQ](/faq.md) |
+
 > Docker images are available on [DockerHub](https://hub.docker.com/repository/docker/romainguiet/biop-desktop/)/[GitHub](TODO), so you can simply pull and run them. 
 >
 > Nevetherless, if you want to build the images yourself, you can follow the instructions below.
