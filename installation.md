@@ -4,6 +4,8 @@ layout: default
 filename: installation.md
 --- 
 
+| [**Installation**](/installation.md) | [Build](/build.md) | [Run](/run.md) | [FAQ](/faq.md) |
+
 # Local installation
 
 ## Windows 11 & Docker Desktop
