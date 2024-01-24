@@ -4,7 +4,7 @@ layout: default
 filename: index.md
 ---
 
-| [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) |
+| [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) | [FAQ](/faq.md) |
 
 # Acknowledgements 
 
@@ -22,7 +22,6 @@ The **BIOP-desktop** is :
 | Users Point of View | IT & Dev. Point of View |
 |---|---|
 | a **`Computer`** with "everything" installed and running! | a **`Docker`** image that you can simply pull and run |
-
 
 
 ## What is a Versioned Computer?
