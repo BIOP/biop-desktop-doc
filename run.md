@@ -22,6 +22,7 @@ filename: run.md
 ## Requirements
 
 1.Please cf [Installation](/installation.md) 
+
 2.a.Please cf [Build](/build.md) 
 
 or 
@@ -48,11 +49,13 @@ docker run -it --rm -p 8888:8888 --gpus device=0 biop-desktop:0.0.7
 OR
 
 ### 2.b.Open a browser and go to [http://127.0.0.1:8888/lab/](http://127.0.0.1:8888/lab/) 
-You'll arrive on JupyterLab (which is convenient to drag & drop images/files)
+You'll arrive on JupyterLab (which is convenient to drag & drop image/file)
 ![jupyter lab](/resources/local_JupyterLab.png)
 AND **Click VNC icon**
 
 ![VNC](/resources/VNC_icon.png)
+
+OR 
 
 ### 2.c.Open a browser and go to [http://127.0.0.1:8888/vnc/](http://127.0.0.1:8888/vnc/) 
 You'll arive directly on the Desktop
@@ -60,13 +63,11 @@ You'll arive directly on the Desktop
 ### 3.You arrive on the Desktop
 ![desktop](/resources/local_BIOP-desktop.png)
 
-#### Binding local folder/hardrive
 
-You can mount a folder from your computer to the docker container using the following command:
-
-```
-docker run -it --rm -p 8888:8888 --gpus device=0 --mount src=where/on/your/computer,target=where/in/the/docker,type=bind biop-desktop:0.0.7
-```
+> NOTE : You can bind a local folder/hardrive from your computer to the docker container using the following command:
+> ```--mount src=where/on/your/computer,target=where/in/the/docker,type=bind```
+> for example:
+> ```docker run -it --rm -p 8888:8888 --gpus device=0 --mount src=where/on/your/computer,target=where/in/the/docker,type=bind biop-desktop:0.0.7```
 
 # Run BIOP-Desktop remotly
 
