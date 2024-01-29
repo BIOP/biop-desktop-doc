@@ -5,19 +5,91 @@ filename: run.md
 --- 
 
 | [Installation](/installation.md) | [Build](/build.md) | [**Run**](/run.md) | [FAQ](/faq.md) |
-
 # Run BIOP-Desktop 
 
  Table of contents
-- [Run BIOP-Desktop locally](#run-biop-desktop-locally)
-- [Run BIOP-Desktop remotly](#run-biop-desktop-remotly)
-    - [Kubernetes](#kubernetes)
-        - [General](#general)
-        - [RunAI](#runai)
+- [Start BIOP-Desktop remotly](#start-biop-desktop-remotly)
+    - [Kubernetes vanilla](#kubernetes-vanilla)
+    - [Kubernetes RunAI](#kubernetes-runai)
     - [Slurm](#slurm)
     - [Renku](#renku)
+- [Start BIOP-Desktop locally](#start-biop-desktop-locally)
+- [Use BIOP-Desktop](#use-biop-desktop)
 
-# Run BIOP-Desktop locally
+
+
+# Run BIOP-Desktop remotly
+
+## Kubernetes vanilla
+
+### Create pod 
+
+#### ... using deployment
+
+```bash
+kubectl apply -f biop-desktop-deployment.yaml
+```
+#### ... using job
+```bash
+kubectl apply -f biop-desktop-job.yaml
+```
+
+## Access to jupyter
+```bash
+kubectl port-forward $(kubectl get pods -l app=biop-desktop -o name|head -n 1) 8888
+```
+
+or run the following command to get the pod name and specify the pod name in the following command
+```bash
+$ kubectl get pods 
+NAME               READY   STATUS    RESTARTS   AGE
+biop-desktop-0-0   1/1     Running   0          30s
+$ kubectl port-forward biop-desktop-0-0 8888
+```
+
+Open [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) in your web browser and continue with [Use BIOP-Desktop](#use-biop-desktop)
+
+## Cleanup
+```bash
+kubectl delete deployments.apps,jobs.batch -l app=biop-desktop
+```
+
+## Kubernetes RunAI
+
+### Create pod using job
+```bash
+kubectl apply -f biop-desktop-runaijob.yaml
+```
+
+## Access to jupyter
+```bash
+kubectl port-forward $(kubectl get pods -l app=biop-desktop -o name|head -n 1) 8888
+```
+
+or run the following command to get the pod name and specify the pod name in the following command
+```bash
+$ kubectl get pods 
+NAME               READY   STATUS    RESTARTS   AGE
+biop-desktop-0-0   1/1     Running   0          30s
+$ kubectl port-forward biop-desktop-0-0 8888
+```
+
+Open [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) in your web browser and continue with [Use BIOP-Desktop](#use-biop-desktop)
+
+### Cleanup
+```bash
+kubectl delete runaijobs.run.ai -l app=biop-desktop
+```
+
+## Slurm 
+(TODO)
+
+## Renku 
+(TODO)
+
+
+
+# Start BIOP-Desktop locally
 
 ## Requirements
 
@@ -37,52 +109,30 @@ docker pull romainGuiet/biop-desktop:0.0.7
 
 ### *(0 - Start Docker Desktop)*
 
-### 1.Open a command prompt and type:
+### Open a command prompt and enter the following command:
 ```
 docker run -it --rm -p 8888:8888 --gpus device=0 biop-desktop:0.0.7
 ```
 ![start terminal](/resources/local_run_00.png)
 
-### 2.a.Ctrl+click on the link in the command prompt 
-![start jupyter lab](/resources/local_run_01.png)
+## Access to jupyter
+Open [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) in your web browser and continue with [Use BIOP-Desktop](#use-biop-desktop)
 
-OR
-
-### 2.b.Open a browser and go to [http://127.0.0.1:8888/lab/](http://127.0.0.1:8888/lab/) 
-You'll arrive on JupyterLab (which is convenient to drag & drop image/file)
+# Use BIOP-Desktop
+You arrive on JupyterLab (which is convenient to drag & drop image/file see [faq](/faq.md) for more info) 
 ![jupyter lab](/resources/local_JupyterLab.png)
-AND **Click VNC icon**
+
+AND **Click VNC icon** to open the Desktop
 
 ![VNC](/resources/VNC_icon.png)
 
-OR 
-
-### 2.c.Open a browser and go to [http://127.0.0.1:8888/vnc/](http://127.0.0.1:8888/vnc/) 
-You'll arive directly on the Desktop
-
 ### 3.You arrive on the Desktop
+You access to the Desktop, you can use the software installed in the image
 ![desktop](/resources/local_BIOP-desktop.png)
 
 
 > NOTE : You can bind a local folder/hardrive from your computer to the docker container using the following command:
 > ```--mount src=where/on/your/computer,target=where/in/the/docker,type=bind```
 > for example:
-> ```docker run -it --rm -p 8888:8888 --gpus device=0 --mount src=where/on/your/computer,target=where/in/the/docker,type=bind biop-desktop:0.0.7```
+> ```docker run -it --rm -p 8888:8888 --gpus device=0 --mount src=D:/,target=/home/biop/local/,type=bind biop-desktop:0.0.7```
 
-# Run BIOP-Desktop remotly
-
-## Kubernetes
-
-### General
-TODO
-
-### RunAI
-TODO
-
-## Slurm
-
-TODO
-
-## Renku
-
-TODO
