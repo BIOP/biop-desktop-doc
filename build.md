@@ -1,10 +1,10 @@
 ---
-title: Build
+title: Build BIOP-destkop
 layout: default
 filename: build.md
 --- 
 
-| [Installation](/installation.md) | [**Build**](/build.md) | [Run](/run.md) | [FAQ](/faq.md) |
+| [Demo](/demo.md) | [Installation](/installation.md) | [**Build**](/build.md) | [Run](/run.md) | [FAQ](/faq.md) |
 
 > Docker images are available on [DockerHub](https://hub.docker.com/repository/docker/romainguiet/biop-desktop/)/[GitHub](TODO), so you can simply pull and run them. 
 >
@@ -48,6 +48,8 @@ The rational for this is to "simplify" the build when you want to change a singl
 ```
 graph above made with [this tool](https://tree.nathanfriend.io/)
 
+More datils about the version of each component can be found in the spreadsheet below :
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRwd66lBsfJX8kvYwbSxRJbApiAdD-KDfO5PeGHjstlKjE2XsiCf2Ene81AbJYVzHZ73qN3-_m2VtfI/pubhtml?widget=true&amp;headers=false"></iframe>
 
 ## How does it work ?
 

@@ -1,10 +1,10 @@
 ---
-title: Installation
+title: Install BIOP-destkop
 layout: default
 filename: installation.md
 --- 
 
-| [**Installation**](/installation.md) | [Build](/build.md) | [Run](/run.md) | [FAQ](/faq.md) |
+| [Demo](/demo.md) | [**Installation**](/installation.md) | [Build](/build.md) | [Run](/run.md) | [FAQ](/faq.md) |
 
 The BIOP-desktop is a docker container that can be run on a remote server or alternatively on your local machine. 
 In our case we run it on a Kubernetes cluster, orchestrated by [RunAI](https://www.run.ai/).

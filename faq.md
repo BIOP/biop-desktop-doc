@@ -1,10 +1,10 @@
 ---
-title: Frequently Asked Questions
+title: Frequently Asked Questions of BIOP-destkop
 layout: default
 filename: faq.md
 --- 
 
-| [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) | [**FAQ**](/faq.md) |
+| [Demo](/demo.md) | [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) | [**FAQ**](/faq.md) |
 
 # Frequently Asked Questions
 

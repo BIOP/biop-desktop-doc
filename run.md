@@ -4,7 +4,7 @@ layout: default
 filename: run.md
 --- 
 
-| [Installation](/installation.md) | [Build](/build.md) | [**Run**](/run.md) | [FAQ](/faq.md) |
+| [Demo](/demo.md) | [Installation](/installation.md) | [Build](/build.md) | [**Run**](/run.md) | [FAQ](/faq.md) |
 
 # Run BIOP-Desktop 
 

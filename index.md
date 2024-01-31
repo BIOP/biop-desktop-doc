@@ -1,10 +1,10 @@
 ---
-title : Welcome
+title : Welcome to BIOP-desktop
 layout: default
 filename: index.md
 ---
 
-| [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) | [FAQ](/faq.md) |
+| [Demo](/demo.md) | [Installation](/installation.md) | [Build](/build.md) | [Run](/run.md) | [FAQ](/faq.md) |
 
 # Acknowledgements 
 
