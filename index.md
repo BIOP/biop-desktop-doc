@@ -44,15 +44,14 @@ A **`Versioned Computer`** is useful for:
 # BIOP-desktop installed software
 
 | Software | Description | Notes | 
-| --- | --- |
-| [Fiji](https://fiji.sc/) | a “batteries-included” ImageJ  | update sites : clij, stardist, ptbiop , ilastik … |
-| [ilastik (GPU)](https://www.ilastik.org/) | interactive learning and segmentation toolkit | GPU version|
-| [QuPath](https://qupath.github.io/) | Digital Pathology | with extensions : cellpose, samapi extension , ABBA ... |
-| [cellprofiler](https://cellprofiler.org/) | |
+| --- | --- |--- |
+| [ABBA](https://biop.github.io/ijp-imagetoatlas/) | Aligning Big Brains & Atlases| including : [elastix](https://elastix.lumc.nl/) & transformix, [DeepSlice](https://github.com/PolarBean/DeepSlice), ... | 
+| [cellprofiler](https://cellprofiler.org/) | Open-source software designed to enable biologists to quantitatively measure phenotypes from thousands of images automatically. | 
+| [cellpose](https://cellpose.readthedocs.io/en/latest/index.html#) |  An anatomical segmentation algorithm, to detect nucleus, cells, and much more ! | 
 | [devbio-napari](https://github.com/haesleinhuepf/devbio-napari) | The Fijiest way to do image analysis in Python | 
-| [EMPanADA](https://empanada.readthedocs.io/en/latest/)| DNN to segment mitochondria in EM images | 
-| [stardist](https://github.com/stardist/stardist) | |
-| [ABBA](https://biop.github.io/ijp-imagetoatlas/) | including : elastix, transformix, DeepSlice, ... | | 
-| [inkscape](https://inkscape.org/) |  Vectoriel drawing (and more!) | 
-
-
+| [EMPanADA](https://empanada.readthedocs.io/en/latest/)| DNN to segment mitochondria in EM images |
+| [Fiji](https://fiji.sc/) | A “batteries-included” ImageJ  | update sites : clij, stardist, ptbiop , ilastik … |
+| [ilastik (GPU)](https://www.ilastik.org/) | Interactive learning and segmentation toolkit | GPU version|
+| [inkscape](https://inkscape.org/) |  Vectoriel drawing (and more!) | with [inkscape-imagej-panel](https://gitlab.com/doctormo/inkscape-imagej-panel) plugins |
+| [QuPath](https://qupath.github.io/) | Digital Pathology | with some extensions : [cellpose](https://github.com/BIOP/qupath-extension-cellpose), [SAM](https://github.com/ksugar/qupath-extension-sam) , [Warpy](https://imagej.net/plugins/bdv/warpy/warpy) , [StarDist]()... |
+| [StarDist](https://github.com/stardist/stardist) | Object Detection with Star-convex Shapes |
