@@ -49,7 +49,7 @@ The rational for this is to "simplify" the build when you want to change a singl
 graph above made with [this tool](https://tree.nathanfriend.io/)
 
 More datils about the version of each component can be found in the spreadsheet below :
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRwd66lBsfJX8kvYwbSxRJbApiAdD-KDfO5PeGHjstlKjE2XsiCf2Ene81AbJYVzHZ73qN3-_m2VtfI/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe width="350" height="500"  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRwd66lBsfJX8kvYwbSxRJbApiAdD-KDfO5PeGHjstlKjE2XsiCf2Ene81AbJYVzHZ73qN3-_m2VtfI/pubhtml?widget=true&amp;headers=false"></iframe>
 
 ## How does it work ?
 
@@ -97,6 +97,7 @@ Whenever you want to update a "sub-block" (QuPath, ilastik, Fiji ... ) :
 The main advantage of multi-stage build is that you can build only the sub-block you want to update, and then build the main image saving some time compare to building everything from scratch each time you want to update a single software.
 
 In the table below, you can compare the time needed to build a sub-block image, or the single step of conda create & install and finally the "COPY/PASTE" from one image to the other.
+
 | Dockefile |	TOTAL BUILD	(sec) | conda install (sec) |	multistage - COPY (sec) |
 | ----- | ----- | -----| ----- |
 | Dockerfile-cellpose |	362.9	|295.6	| 63.2 |
