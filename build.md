@@ -98,7 +98,7 @@ The main advantage of multi-stage build is that you can build only the sub-block
 
 In the table below, you can compare the time needed to build a sub-block image, or the single step of conda create & install and finally the "COPY/PASTE" from one image to the other.
 | Dockefile |	TOTAL BUILD	(sec) | conda install (sec) |	multistage - COPY (sec) |
-| ----- | -----: | -----:| -----: |
+| ----- | ----- | -----| ----- |
 | Dockerfile-cellpose |	362.9	|295.6	| 63.2 |
 | Dockerfile-devbio |	283.9|	242.8|	54.2 |
 | Dockerfile-samapi	| 560.4	| 508.2	| 155.9 | 
