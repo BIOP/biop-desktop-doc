@@ -39,15 +39,15 @@ Follow this [wsl documentation](https://learn.microsoft.com/en-us/windows/wsl/in
 Follow this [docker wsl2 documentation](https://docs.docker.com/desktop/wsl/)
 and this [docker-gpu documentation](https://ubuntu.com/tutorials/enabling-gpu-acceleration-on-ubuntu-on-wsl2-with-the-nvidia-cuda-platform#1-overview)
 
-[Good reading too](https://dinhanhthi.com/docker-gpu/)
-
 ## Linux (TODO)
 
-- Install docker
+Please follow [Docker Engine](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) installation documentation.
 
-## Mac (TODO)
+## Mac 
 
-- Please contact us if you succesfully installed it on Mac. We will update this documentation.
+ Please follow [Docker Destkop](https://docs.docker.com/desktop/install/mac-install/) installation documentation.
+
+> NOTE: Please contact us if you succesfully installed it on ***Mac-ARM***. We will update this documentation.
 
 
 # NEXT 
