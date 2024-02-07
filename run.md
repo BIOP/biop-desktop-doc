@@ -23,6 +23,8 @@ filename: run.md
 
 ## Kubernetes vanilla
 
+Files to use are in the [k8s](https://github.com/BIOP/BIOP-desktop/tree/main/k8s) folder on [**BIOP-desktop**](https://github.com/BIOP/BIOP-desktop) github repository
+
 ### Create pod 
 
 #### ... using deployment
