@@ -15,6 +15,7 @@ filename: run.md
     - [Slurm](#slurm)
     - [Renku](#renku)
 - [Start BIOP-Desktop locally](#start-biop-desktop-locally)
+
 - [Use BIOP-Desktop](#use-biop-desktop)
 
 
@@ -103,15 +104,15 @@ kubectl delete runaijobs.run.ai -l app=biop-desktop
 
 1.Please cf [Installation](/installation.md) 
 
-2.a.Please cf [Build](/build.md) 
-
-or 
-
-2.b.Pull the image from [dockerhub](https://hub.docker.com/r/biop/biop-desktop) using the following command:
+2.a. Pull the image from [dockerhub](https://hub.docker.com/r/biop/biop-desktop) using the following command:
 
 ```
 docker pull romainGuiet/biop-desktop:0.0.7
 ```
+or 
+
+2.b. Alternetively you can [Build](/build.md) image.
+
 
 ## Run 
 
@@ -139,8 +140,4 @@ You access to the Desktop, you can use the software installed in the image
 ![desktop](/resources/local_BIOP-desktop.png)
 
 
-> NOTE : You can bind a local folder/hardrive from your computer to the docker container using the following command:
-> ```--mount src=where/on/your/computer,target=where/in/the/docker,type=bind```
-> for example:
-> ```docker run -it --rm -p 8888:8888 --gpus device=0 --mount src=D:/,target=/home/biop/local/,type=bind biop-desktop:0.0.7```
-
+To discover some workflows you can to have a look to [Demo](/demo.md)
