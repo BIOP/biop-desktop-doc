@@ -48,8 +48,8 @@ The rational for this is to "simplify" the build when you want to change a singl
 ```
 graph above made with [this tool](https://tree.nathanfriend.io/)
 
-More datils about the version of each component can be found in the spreadsheet below :
-<iframe width="350" height="500"  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRwd66lBsfJX8kvYwbSxRJbApiAdD-KDfO5PeGHjstlKjE2XsiCf2Ene81AbJYVzHZ73qN3-_m2VtfI/pubhtml?widget=true&amp;headers=false"></iframe>
+More details about the version of each component can be found in the spreadsheet below :
+<iframe width="350" height="550"  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRwd66lBsfJX8kvYwbSxRJbApiAdD-KDfO5PeGHjstlKjE2XsiCf2Ene81AbJYVzHZ73qN3-_m2VtfI/pubhtml?widget=true&amp;headers=false"></iframe>
 
 ## How does it work ?
 
