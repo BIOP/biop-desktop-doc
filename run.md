@@ -84,6 +84,11 @@ Open [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) in your web browser 
 kubectl delete runaijobs.run.ai -l app=biop-desktop
 ```
 
+# RunAI interface   
+
+<iframe width="640" height="360" src="https://docs.google.com/presentation/d/1420pMyae4zamCsfyuz5zT0VnYe-VlDGjydHa7PQpU4g/preview?embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" allow="fullscreen" allowfullscreen> </iframe>
+
+
 ## Slurm 
 (TODO)
 
