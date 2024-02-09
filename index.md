@@ -17,21 +17,21 @@ The BIOP-desktop is a **`Versioned Computer`** with [software](#BIOP-desktop-ins
 
 ![desktop-screeshot](/resources/BIOP-desktop_Shot.png)
 
-The **BIOP-desktop** is a [Docker](https://www.docker.com/) image that you can simply build or pull and run
+The **BIOP-desktop** is a [Docker](https://www.docker.com/) image that you can simply pull and run (and optionnaly build yourself)
 
 ![BIOP-desktop_Fresk](/resources/BIOP-desktop_Fresk.png)
-
+( [*enlarge image*](https://github.com/BIOP/biop-desktop-doc/blob/main/resources/BIOP-desktop_Fresk.png) )
 
 The **BIOP-desktop** is :
 
-| Users Point of View | IT Point of View | Dev. Point of View |    
+|  *Developper* Point of View | *IT* Point of View |     *Users* Point of View |
 |---|---|---|
-| a **`Computer`** with "everything" installed and running! | a **`Docker`** image that you can simply pull and run | a **`Docker`** image that you can build using multi-stage |
+| a **`Docker`** image that you can [build](/build.md) using multi-stage | a **`Docker`** image that you can simply pull and [run](/run.md) |  a **`Computer`** with "everything" installed and running! |
 
 
 ## What is a Versioned Computer?
 
-By **`Versioned Computer`**, we mean a computer in which every software is fixed, making it possible to reproduce the same environment at any time.
+By **`Versioned Computer`**, we mean a computer in which every software is set, making it possible to reproduce the same environment at any time.
 
 Making use of the [Docker images](https://docs.docker.com/manuals/), we can create a **`Versioned Computer`** that is reproducible, shareable, and open.
 We make use of [multi-stage build](https://docs.docker.com/build/building/multi-stage/) to ease building and versionning. Indeed we can build a new image, changing a single component and keeping the rest of the image unchanged, if needed.
