@@ -15,7 +15,7 @@ This whole project was possible thanks to the previous work of the [renku team](
 
 The BIOP-desktop is a **`Versioned Computer`** with [software](#BIOP-desktop-installed-software) pre-installed and pre-configured so you can focus on your analysis (and not on the installation).
 
-![desktop-screeshot](/resources/BIOP-desktop.png)
+![desktop-screeshot](/resources/BIOP-desktop_Shot.png)
 
 The **BIOP-desktop** is a [Docker](https://www.docker.com/) image that you can simply build or pull and run
 
@@ -24,7 +24,7 @@ The **BIOP-desktop** is a [Docker](https://www.docker.com/) image that you can s
 
 The **BIOP-desktop** is :
 
-| Users Point of View | IT Point of View | & Dev. Point of View |    
+| Users Point of View | IT Point of View | Dev. Point of View |    
 |---|---|---|
 | a **`Computer`** with "everything" installed and running! | a **`Docker`** image that you can simply pull and run | a **`Docker`** image that you can build using multi-stage |
 
