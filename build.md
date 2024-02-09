@@ -29,7 +29,7 @@ In the [DockerFile-base](/docker/DockerFile-base) you will notice the following 
 FROM nvcr.io/nvidia/pytorch:23.07-py3
 ```
 
-When building the main image via [DockerFile-ms](/docker/DockerFile-ms) we make use of multisage build, i.e. using smaller image containing a software. 
+When building the main image via [DockerFile-ms](/docker/DockerFile-ms) we make use of multi-stage build, i.e. using smaller image containing a software. 
 The rational for this is to "simplify" the build when you want to change a single "program" one doesn't need to build everything from scratch but rather create a new sub-block and update the main.
 
 ```
@@ -179,7 +179,7 @@ docker build -f stardist/Dockerfile-stardist -t biop-stardist:0.8.5 . --no-cache
 
 # Build the main image 
 
-By specifying the version of the sub-blocks (needs to be built in advance, se  above), we can build the main image with the following command (--build-arg(s) are optionnal) :
+By specifying the version of the sub-blocks (needs to be built in advance, see above), we can build the main image with the following command (--build-arg(s) are optionnal) :
 
 ```
 docker build -f Dockerfile-ms -t biop-desktop:0.0.8 . --no-cache
@@ -196,10 +196,10 @@ Docker image is big because of :
 
 - models pre-download
 	cellpose (all models ~350 Mo)
-	sampi (huge et large  > 5Go)
+	samapi (huge et large  > 5Go)
 
 	if we don't download, image will get smaller
-	BUT users will have to download models each time ( possibility hosting server being done at that time)
+	BUT users will have to download models each time (possibility of hosting server being done at that time)
 
 - multiple conda-env (cellpose, samapi , ~5Go each)
 	
