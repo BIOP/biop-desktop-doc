@@ -38,7 +38,7 @@ kubectl apply -f biop-desktop-deployment.yaml
 kubectl apply -f biop-desktop-job.yaml
 ```
 
-## Access to jupyter
+### Access to jupyter
 ```bash
 kubectl port-forward $(kubectl get pods -l app=biop-desktop -o name|head -n 1) 8888
 ```
@@ -53,7 +53,7 @@ $ kubectl port-forward biop-desktop-0-0 8888
 
 Open [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) in your web browser and continue with [Use BIOP-Desktop](#use-biop-desktop)
 
-## Cleanup
+### Cleanup
 ```bash
 kubectl delete deployments.apps,jobs.batch -l app=biop-desktop
 ```
@@ -65,7 +65,7 @@ kubectl delete deployments.apps,jobs.batch -l app=biop-desktop
 kubectl apply -f biop-desktop-runaijob.yaml
 ```
 
-## Access to jupyter
+### Access to jupyter
 ```bash
 kubectl port-forward $(kubectl get pods -l app=biop-desktop -o name|head -n 1) 8888
 ```
@@ -111,7 +111,7 @@ docker pull romainGuiet/biop-desktop:0.0.7
 ```
 or 
 
-2.b. Alternetively you can [Build](/build.md) image.
+2.b. Alternatively you can [Build](/build.md) image.
 
 
 ## Run 
@@ -124,10 +124,10 @@ docker run -it --rm -p 8888:8888 --gpus device=0 biop-desktop:0.0.7
 ```
 ![start terminal](/resources/local_run_00.png)
 
-## Access to jupyter
+### Access to jupyter
 Open [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) in your web browser and continue with [Use BIOP-Desktop](#use-biop-desktop)
 
-# Use BIOP-Desktop
+### Use BIOP-Desktop
 You arrive on JupyterLab (which is convenient to drag & drop image/file see [faq](/faq.md) for more info) 
 ![jupyter lab](/resources/local_JupyterLab.png)
 
@@ -135,9 +135,9 @@ AND **Click VNC icon** to open the Desktop
 
 ![VNC](/resources/VNC_icon.png)
 
-### 3.You arrive on the Desktop
-You access to the Desktop, you can use the software installed in the image
+### On the Desktop
+You can use the software installed in the image
 ![desktop](/resources/local_BIOP-desktop.png)
 
 
-To discover some workflows you can to have a look to [Demo](/demo.md)
+To discover some workflows you can have a look to [Demo](/demo.md)
