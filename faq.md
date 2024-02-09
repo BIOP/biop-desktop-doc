@@ -22,7 +22,7 @@ You need to build a new image with the new software, please cf [Build](/build.md
 
 ## How to exchange data to BIOP-desktop?
 
-Multiple options are available depending of the data size and of your harware (local computer or remote).
+Multiple options are available depending of the data size and of your hardware (local computer or remote).
 
 ### OMERO
 
@@ -38,7 +38,7 @@ The file will be accessible from the Desktop, in your "home" folder.
 > - drag & drop the zip!
 > - unzip from the BIOP-desktop
 
-In the Jupyter Lab interface , you can get into a folder, right-click to save the folder as a zip.
+In the Jupyter Lab interface, you can get into a folder, right-click to save the folder as a zip.
 
 ### Mount folder (locally)
 
@@ -52,7 +52,7 @@ When running the BIOP-desktop remotely, you can mount an S3 storage to the BIOP-
 Please get in touch with your IT.
 
 
-## How to skip jupyter lab interface and arrive directly on the BIOP-desktop  ?
+## How to skip jupyter lab interface and arrive directly on the BIOP-desktop ?
 
 Open a browser and go to [http://127.0.0.1:8888/vnc/](http://127.0.0.1:8888/vnc/)! 
 
