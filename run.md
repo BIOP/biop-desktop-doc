@@ -120,7 +120,7 @@ or
 
 ### Open a command prompt and enter the following command:
 ```
-docker run -it --rm -p 8888:8888 --gpus device=0 biop-desktop:0.0.7
+docker run -it --rm -p 8888:8888 --gpus device=0 biop/biop-desktop:0.0.7
 ```
 ![start terminal](/resources/local_run_00.png)
 
