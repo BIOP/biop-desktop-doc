@@ -45,10 +45,10 @@ kubectl port-forward $(kubectl get pods -l app=biop-desktop -o name|head -n 1) 8
 
 or run the following command to get the pod name and specify the pod name in the following command
 ```bash
-$ kubectl get pods 
+kubectl get pods 
 NAME               READY   STATUS    RESTARTS   AGE
 biop-desktop-0-0   1/1     Running   0          30s
-$ kubectl port-forward biop-desktop-0-0 8888
+kubectl port-forward biop-desktop-0-0 8888
 ```
 
 Open [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) in your web browser and continue with [Use BIOP-Desktop](#use-biop-desktop)
@@ -72,10 +72,10 @@ kubectl port-forward $(kubectl get pods -l app=biop-desktop -o name|head -n 1) 8
 
 or run the following command to get the pod name and specify the pod name in the following command
 ```bash
-$ kubectl get pods 
+kubectl get pods 
 NAME               READY   STATUS    RESTARTS   AGE
 biop-desktop-0-0   1/1     Running   0          30s
-$ kubectl port-forward biop-desktop-0-0 8888
+kubectl port-forward biop-desktop-0-0 8888
 ```
 
 Open [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) in your web browser and continue with [Use BIOP-Desktop](#use-biop-desktop)
@@ -107,7 +107,7 @@ kubectl delete runaijobs.run.ai -l app=biop-desktop
 2.a. Pull the image from [dockerhub](https://hub.docker.com/r/biop/biop-desktop) using the following command:
 
 ```
-docker pull romainGuiet/biop-desktop:0.0.7
+docker pull biop/biop-desktop:0.0.7
 ```
 or 
 
