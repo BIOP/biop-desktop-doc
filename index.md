@@ -46,13 +46,23 @@ A **`Versioned Computer`** is useful for:
 - **Publication**: you can share your analysis with the reviewers, and they can reproduce it.
 - **Open Science**: you can share your analysis with the world, and they can reproduce it.
 
+## Why did we create the BIOP-desktop?
+
+We created the **BIOP-desktop** to help you focus on your analysis, and not on the installation and configuration of software.
+BUT we created it also because we need it ourself! 
+
+As a core facility, we give courses on image processing and image analysis and practical training on software we create workflows and we wanted a solution that can work locally (on our workstations 12-32 cores, 128-512GB RAM, 12-24GB GPU) and remotely (cluster with 80GB-GPU).
+
+Mainting the software on all our workstation is a burden and we wanted a solution that can ease this task.
+
+
 # BIOP-desktop installed software
 
 | Software | Description | Notes | 
 | --- | --- |--- |
 | [ABBA](https://biop.github.io/ijp-imagetoatlas/) | Aligning Big Brains & Atlases| including : [elastix](https://elastix.lumc.nl/) & transformix, [DeepSlice](https://github.com/PolarBean/DeepSlice), ... | 
 | [cellprofiler](https://cellprofiler.org/) | Open-source software designed to enable biologists to quantitatively measure phenotypes from thousands of images automatically. | 
-| [cellpose](https://cellpose.readthedocs.io/en/latest/index.html#) |  An anatomical segmentation algorithm, to detect nucleus, cells, and much more ! | 
+| [cellpose](https://cellpose.readthedocs.io/en/latest/index.html#) |  An anatomical segmentation algorithm, to detect nucleus, cells, and much more ! |  and [omnipose](https://github.com/kevinjohncutler/omnipose) too!
 | [devbio-napari](https://github.com/haesleinhuepf/devbio-napari) | The Fijiest way to do image analysis in Python | 
 | [EMPanADA](https://empanada.readthedocs.io/en/latest/)| DNN to segment mitochondria in EM images |
 | [Fiji](https://fiji.sc/) | A “batteries-included” ImageJ  | update sites : clij, stardist, ptbiop , ilastik … |
@@ -60,3 +70,4 @@ A **`Versioned Computer`** is useful for:
 | [inkscape](https://inkscape.org/) |  Vectoriel drawing (and more!) | with [inkscape-imagej-panel](https://gitlab.com/doctormo/inkscape-imagej-panel) plugins |
 | [QuPath](https://qupath.github.io/) | Digital Pathology | with some extensions : [cellpose](https://github.com/BIOP/qupath-extension-cellpose), [SAM](https://github.com/ksugar/qupath-extension-sam) , [Warpy](https://imagej.net/plugins/bdv/warpy/warpy) , [StarDist]()... |
 | [StarDist](https://github.com/stardist/stardist) | Object Detection with Star-convex Shapes |
+
