@@ -8,7 +8,8 @@ filename: run.md
 
 # Run BIOP-Desktop 
 
- Table of contents
+** Table of contents** 
+
 - [Start BIOP-Desktop remotly](#start-biop-desktop-remotly)
     - [Kubernetes vanilla](#kubernetes-vanilla)
     - [Kubernetes RunAI](#kubernetes-runai)
@@ -17,8 +18,6 @@ filename: run.md
 - [Start BIOP-Desktop locally](#start-biop-desktop-locally)
 
 - [Use BIOP-Desktop](#use-biop-desktop)
-
-
 
 # Run BIOP-Desktop remotly
 
@@ -107,7 +106,7 @@ kubectl delete runaijobs.run.ai -l app=biop-desktop
 2.a. Pull the image from [dockerhub](https://hub.docker.com/r/biop/biop-desktop) using the following command:
 
 ```
-docker pull biop/biop-desktop:0.0.7
+docker pull biop/biop-desktop:0.1.0
 ```
 or 
 
@@ -120,7 +119,7 @@ or
 
 ### Open a command prompt and enter the following command:
 ```
-docker run -it --rm -p 8888:8888 --gpus device=0 biop/biop-desktop:0.0.7
+docker run -it --rm -p 8888:8888 --gpus device=0 biop/biop-desktop:0.1.0
 ```
 ![start terminal](/resources/local_run_00.png)
 
