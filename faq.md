@@ -44,7 +44,11 @@ In the Jupyter Lab interface, you can get into a folder, right-click to save the
 
 When running the BIOP-desktop locally, you can mount a folder from your computer to the BIOP-desktop when you START the BIOP-desktop.
 
-```docker run -it --rm -p 8888:8888 --gpus device=0 --mount src=where/on/your/computer,target=where/in/the/docker,type=bind biop-desktop:0.0.7```
+```docker run -it --rm -p 8888:8888 --gpus device=0 --mount src=where/on/your/computer,target=where/in/the/docker,type=bind biop-desktop:0.1.0```
+
+for example to share the folder `D:/docker-share/` with the BIOP-desktop, you can run	: 
+
+```docker run -it --rm -p 8888:8888 --gpus device=0 --mount src=D:/docker-share/,target=home/biop/local/,type=bind biop-desktop:0.1.0```
 
 ### Mount folder (remotely)
 
